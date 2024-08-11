@@ -101,10 +101,16 @@ ________________________
 
 _______________________
 
+☁️ `Difference between Declarative And Imperative`
 
+**Declarative** 
 
+- Describes the end result
+- Can deploy multible resources at once
+- Can be integrated in CI/CD processes
+- Can be source controlled
 
-
-
-
-
+**Imperative** 
+- Send `Instructions` to run
+- Can't Verified
+- Can't be source controlled
