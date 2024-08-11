@@ -34,6 +34,9 @@ ________________________
 
 *is to increase the reliability of your application by distributing VMs across multiple fault domains. If one fault domain experiences a failure, only the VMs in that domain are affected, not the entire application.*
 
+**Example:**
+
+*If you deploy VMs across three fault domains, and one fault domain experiences a hardware issue, the VMs in the other two fault domains will continue to run without disruption.*
 
 
 
