@@ -64,6 +64,8 @@ ______________________
 
 __________________________
 
+☁️ `Difference between Fault Domain & Update Domain`
+
 ![image](https://github.com/user-attachments/assets/44ba0890-b27f-4c54-8219-5990b4554fbf)
 
 _________________________
@@ -76,24 +78,14 @@ _________________________
 
 _________________________
 
+☁️ `What is the Availability Zone`
 
+- An Availability Zone is a physically separate location within an Azure region, each with its own independent power source, cooling, and network. They provide high availability by allowing you to deploy your VMs and other resources across different zones within a region.
 
+- By deploying your resources across multiple Availability Zones, you can achieve greater redundancy and fault tolerance. Azure ensures that the zones are isolated from each other but connected via high-speed private network links.
 
+_________________________
 
+☁️ `Difference between Availability Set & Availability Zone`
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/d2b27a08-6a62-444f-9e3b-ec08e7a59985)
