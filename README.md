@@ -89,3 +89,22 @@ _________________________
 ☁️ `Difference between Availability Set & Availability Zone`
 
 ![image](https://github.com/user-attachments/assets/d2b27a08-6a62-444f-9e3b-ec08e7a59985)
+
+________________________
+
+☁️ `ARM (Azure Resource Manager) Templete`
+
+- A JSON file describing the resource to be created
+- Used by Azure in all deployments
+- We can be exported, modified, uploaded and deployed
+- Is A declarative way of deploying resources
+
+_______________________
+
+
+
+
+
+
+
+
