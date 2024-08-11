@@ -114,3 +114,9 @@ _______________________
 - Send `Instructions` to run
 - Can't Verified
 - Can't be source controlled
+
+______________________
+
+☁️ `What is scale set`
+
+*Imagine you have a web application that experiences heavy traffic during specific times of the day, like an e-commerce site during a sale. A VMSS can automatically scale out additional VMs as traffic increases and then scale them back in during off-peak hours. This ensures that your application remains responsive and available without over-provisioning resources, which saves on costs.*
