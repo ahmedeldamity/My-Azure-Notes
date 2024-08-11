@@ -61,3 +61,39 @@ ______________________
 **In Summary:**
 
 *Update Domains Protect against downtime during updates or patches by rolling out updates to VMs one group at a time.*
+
+__________________________
+
+![image](https://github.com/user-attachments/assets/44ba0890-b27f-4c54-8219-5990b4554fbf)
+
+_________________________
+
+☁️ `What is the Availability Set`
+
+- An Availability Set is a logical grouping of VMs that Azure uses to ensure that the VMs you deploy are distributed across multiple fault domains and update domains within a single data center. This setup helps ensure that your application remains available even during hardware failures or updates but if data center faild you project will fail too.
+
+- When you create an Availability Set, Azure automatically distributes your VMs across multiple fault and update domains. This distribution ensures that in the event of a hardware failure or planned update, only a subset of your VMs will be affected.
+
+_________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
