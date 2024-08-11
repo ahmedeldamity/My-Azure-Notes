@@ -38,17 +38,26 @@ ________________________
 
 *If you deploy VMs across three fault domains, and one fault domain experiences a hardware issue, the VMs in the other two fault domains will continue to run without disruption.*
 
+**In Summary:**
 
+*Fault Domains Protect against hardware failures by distributing VMs across different physical servers or racks.*
 
+______________________
 
+☁️ `About Update Domain`
 
+**What Is The Update Domain Defination:**
 
+*is a group of resources that can be updated or patched at the same time. Azure uses update domains to roll out updates or patches to your VMs in a way that ensures high availability.*
 
+**What Is The Update Domain Purpose:**
 
+*The idea is to update or patch VMs one update domain at a time to ensure that not all instances are updated simultaneously, which helps in maintaining availability during updates.*
 
+**Example:**
 
+*If you have a deployment spread across five update domains and an update is applied to one domain at a time, the VMs in the other domains remain operational during the update process. This way, even during updates, some of your VMs are always running and serving traffic.*
 
+**In Summary:**
 
-
-
-
+*Update Domains Protect against downtime during updates or patches by rolling out updates to VMs one group at a time.*
