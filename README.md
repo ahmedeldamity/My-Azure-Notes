@@ -23,3 +23,29 @@
 - A physical building filled with servers and other hardware that store and process data. It's like a large warehouse full of computers.
 
 ________________________
+
+☁️ `About Fault Domain`
+
+**What Is The Fault Domain Defination:**
+
+*is essentially a group of hardware that shares a single point of failure. In Azure, fault domains are used to ensure that your virtual machines (VMs) are spread across different hardware to prevent a single hardware failure from impacting all of your VMs.*
+
+**What Is The Fault Domain Purpose:**
+
+*is to increase the reliability of your application by distributing VMs across multiple fault domains. If one fault domain experiences a failure, only the VMs in that domain are affected, not the entire application.*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
